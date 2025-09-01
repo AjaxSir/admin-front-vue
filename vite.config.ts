@@ -27,5 +27,8 @@ export default defineConfig({
       '@utils': '/src/utils',
       '@services': '/src/services'
     }
+  },
+  build: {
+    outDir: 'dist'
   }
 })
